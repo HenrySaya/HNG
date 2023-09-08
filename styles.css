@@ -1,0 +1,26 @@
+body {
+    background-color: #000; /* Set the background color to black */
+    color: #fff; /* Set text color to white */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #9c27b0; /* Set border color to a shade of purple */
+    background-color: rgba(156, 39, 176, 0.2); /* Set a semi-transparent purple background */
+    box-shadow: 0 0 10px rgba(156, 39, 176, 0.5); /* Add a subtle shadow */
+}
+
+.slack-name, .current-day, .current-utc-time, .track, .github-url {
+    margin-bottom: 10px;
+}
+
+.slack-display-picture img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+}
+
+
