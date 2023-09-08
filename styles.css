@@ -3,24 +3,45 @@ body {
     color: #fff; /* Set text color to white */
 }
 
+span {
+    color:forestgreen
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
-    border: 1px solid #9c27b0; /* Set border color to a shade of purple */
-    background-color: rgba(156, 39, 176, 0.2); /* Set a semi-transparent purple background */
-    box-shadow: 0 0 10px rgba(156, 39, 176, 0.5); /* Add a subtle shadow */
+    border: 1px solid #9c27b0; 
+    background-color: rgba(156, 39, 176, 0.2); 
+    box-shadow: 0 0 10px rgba(156, 39, 176, 0.5); 
 }
 
 .slack-name, .current-day, .current-utc-time, .track, .github-url {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center; 
+}
+span {
+    margin-right: 10px;
 }
 
+
 .slack-display-picture img {
-    width: 100px; /* Adjust the size as needed */
-    height: 100px; /* Adjust the size as needed */
+    width: 100px; 
+    height: 100px; 
     border-radius: 50%;
 }
+
+.github-url {
+    text-align: center; /* Center-align the content */
+}
+
+.github-icon {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-right: 5px; /* Add some space between the icon and the link */
+}
+
+
 
 

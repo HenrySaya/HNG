@@ -14,35 +14,38 @@
         </div>
 
         <!-- Slack Name -->
-        <div data-testid="slackUserName" class="slack-name">
-            Slack username: Henry Saya
+        <div class="slack-name">
+            <span>Slack username:</span> 
+            <p data-testid="slackUserName">Henry Saya</p>
         </div>
 
         <!-- Track -->
-        <div data-testid="myTrack" class="track">
-            Track: Frontend
+        <div class="track">
+            <span>Track:</span> 
+            <p data-testid="myTrack">Frontend</p>
         </div>
 
 
         <!-- Current Day of the Week -->
-        <div data-testid="currentDayOfTheWeek" class="current-day">
+        <div class="current-day">
             <!-- Display the current day of the week here -->
+            <span>Day:</span>
+            <p data-testid="currentDay"></p>
         </div>
-
-        <!-- Current Time -->
-        <div data-testid="currentTime" class="current-time">
-            <!-- Display the current time here -->
-        </div>
-
+        
         <!-- Current UTC Time -->
-        <div data-testid="currentUTCTime" class="current-utc-time">
+        <div class="current-utc-time">
             <!-- Display the current UTC time in milliseconds here -->
+            <span>Current UTC Time:</span>
+            <p data-testid="currentUtcTime"></p>
         </div>
-
+        
         <!-- GitHub URL -->
-        <div data-testid="githubURL" class="github-url">
-            <a href="https://github.com/HenrySaya/HenrySaya.github.io" target="_blank">GitHub Repository</a>
-        </div>
+        <div class="github-url">
+            <span class="github-icon">&#xF09B;</span>
+            <a href="https://github.com/HenrySaya/HenrySaya.github.io" target="_blank" data-testid="githubURL">GitHub Repository</a>
+        </div>        
+        
 
     </div>
 
